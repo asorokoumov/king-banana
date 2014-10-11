@@ -1,387 +1,655 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Light Blue - Admin Template</title>
-    <link href="css/application.min.css" rel="stylesheet">
-    <link rel="shortcut icon" href="img/favicon.png">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <meta charset="utf-8">
-</head>
-<body class="background-dark">
-<div class="logo">
-    <h4><a href="index.html">Light <strong>Blue</strong></a></h4>
-</div>
-<nav id="sidebar" class="sidebar nav-collapse collapse">
-    <ul id="side-nav" class="side-nav">
-
-        <li class="panel">
-            <a class="accordion-toggle collapsed" data-toggle="collapse"
-               data-parent="#side-nav" href="#grid-collapse"><i class="fa fa-bars"></i> <span class="name">Тесты &nbsp; <span class="label label-info">new</span></span></a>
-            <ul id="grid-collapse" class="panel-collapse collapse">
-                <li><a href="grid.html">Basic</a></li>
-                <li><a href="grid_live.html">Live &nbsp; <span class="label label-important">hot</span></a></li>
-            </ul>
-        </li>
-        
-        
-
-        <li class="panel">
-            <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#side-nav" href="#stats-collapse"><i class="fa fa-bar-chart-o"></i> <span class="name">Отчеты</span></a>
-            <ul id="stats-collapse" class="panel-collapse collapse">
-                <li><a href="stat_statistics.html">Stats</a></li>
-                <li><a href="stat_charts.html">Charts</a></li>
-                <li><a href="stat_realtime.html">Realtime</a></li>
-            </ul>
-        </li>
-
-        <li class="visible-xs">
-            <a href="login.html"><i class="fa fa-sign-out"></i> <span class="name">Sign Out</span></a>
-        </li>
-    </ul>
-
-</nav>
-<div class="wrap">
-    <header class="page-header">
-        <div class="navbar">
-                <ul class="nav navbar-nav navbar-right pull-right">
-                    <li class="visible-phone-landscape">
-                        <a href="#" id="search-toggle">
-                            <i class="fa fa-search"></i>
-                        </a>
-                    </li>
-                    
-                    <li class="divider"></li>
-                    <li class="hidden-xs">
-                        <a href="#" id="settings"
-                           title="Settings"
-                           data-toggle="popover"
-                           data-placement="bottom">
-                            <i class="fa fa-cog"></i>
-                        </a>
-                    </li>
-                    <li class="hidden-xs dropdown">
-                        <a href="#" title="Account" id="account"
-                           class="dropdown-toggle"
-                           data-toggle="dropdown">
-                            <i class="fa fa-user"></i>
-                        </a>
-                        <ul id="account-menu" class="dropdown-menu account" role="menu">
-                            <li role="presentation" class="account-picture">
-                                <img src="img/2.jpg" alt="">
-                                Philip Daineka
-                            </li>
-                            <li role="presentation">
-                                <a href="form_account.html" class="link">
-                                    <i class="fa fa-user"></i>
-                                    Profile
-                                </a>
-                            </li>
-                            <li role="presentation">
-                                <a href="component_calendar.html" class="link">
-                                    <i class="fa fa-calendar"></i>
-                                    Calendar
-                                </a>
-                            </li>
-                            <li role="presentation">
-                                <a href="#" class="link">
-                                    <i class="fa fa-inbox"></i>
-                                    Inbox
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="visible-xs">
-                        <a href="#"
-                           class="btn-navbar"
-                           data-toggle="collapse"
-                           data-target=".sidebar"
-                           title="">
-                            <i class="fa fa-bars"></i>
-                        </a>
-                    </li>
-                    <li class="hidden-xs"><a href="login.html"><i class="fa fa-sign-out"></i></a></li>
-                </ul>
-              
-        </div>
-    </header>
-    <div class="content container">
-
-        <div class="row">
-             <div class="col-md-12">
-                <section class="widget">
-                    <header>
-                    </header>
-                    <div class="body">
-                        <div class="panel-group" id="accordion3">
-                            <div class="panel">
-                                <div class="panel-heading" style='border-left: 5px solid #56bc76;'>
-                                    <!--e5603b-->
-                                        <a class="accordion-toggle collapsed" data-toggle="collapse" href="#collapseOneTwo">
-									
-                                        Авторизация
-                                        
-                             <span class="badge badge-default" style="float:right;" >0</span>
- 						 <span class="badge badge-danger" style="float:right;">0</span>
-                        <span class="badge badge-warning" style="float:right;">0</span>
-                        <span class="badge badge-success" style="float:right;">3</span>
-	
-
-                                    </a>
-                                </div>
-                                <div id="collapseOneTwo" class="panel-collapse collapse">
-                                    <div class="panel-body">
-                        <table class="table table-striped">
-                            <thead>
-                            <tr>
-                                <th>#</th>
-                                <th>Название</th>
-                                <th>Последний запуск</th>
-<th>Статус</th>
-
-
-                                <th>Действия</th>
-
-                            </tr>
-                            </thead>
-                            <tbody>
-                                 <tr>
-                                <td>1</td>
-                                <td>Пользователь существует</td>
-                                <td>2014-10-11 08:12:29</td>
-
-                                <td><span class="badge badge-success">Passed</span></td>
-
-                                <td>
-                                    <div class="fontawesome-icon-list">
-                                          <div style="float: left"><i class="fa fa-play"></i></div>
-                                          <div style="float: left"><i class="fa fa-search"></i></div>
-
-                                        <div><i class="fa fa-cogs"></i></div>
-                                    </div>
-                                </td>
-                            </tr>
-                                
-                            <tr>
-                                <td>2</td>
-                                <td>Пользователь не существует</td>
-                                <td>2014-10-11 08:12:29</td>
-
-                                <td><span class="badge badge-success">Passed</span></td>
-
-                                <td>
-                                    <div class="fontawesome-icon-list">
-                                          <div style="float: left"><i class="fa fa-play"></i></div>
-                                          <div style="float: left"><i class="fa fa-search"></i></div>
-
-                                        <div><i class="fa fa-cogs"></i></div>
-                                    </div>
-                                </td>
-                            </tr>
-                                
-                                
-                                
-                                 <tr>
-                                <td>3</td>
-                                <td>Некорректный пароль</td>
-                                <td>2014-10-11 08:12:29</td>
-
-                                <td><span class="badge badge-success">Passed</span></td>
-
-                                <td>
-                                    <div class="fontawesome-icon-list">
-                                          <div style="float: left"><i class="fa fa-play"></i></div>
-                                          <div style="float: left"><i class="fa fa-search"></i></div>
-
-                                        <div><i class="fa fa-cogs"></i></div>
-                                    </div>
-                                </td>
-                            </tr>
-                                
-                                
-                                
-                              
-                                
-                                
-                                
-                                
-                            </tbody>
-
-                        </table>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="panel">
-                                <div class="panel-heading"  style='border-left: 5px solid #eac85e;'>
-                                    <a class="accordion-toggle" data-toggle="collapse" href="#collapseTwoTwo">
-                                        Фильтры
-                                                                 <span class="badge badge-default" style="float:right;" >0</span>
- 						 <span class="badge badge-danger" style="float:right;">0</span>
-                        <span class="badge badge-warning" style="float:right;">3</span>
-                        <span class="badge badge-success" style="float:right;">0</span>
-                                    </a>
-
-                                </div>
-                                <div id="collapseTwoTwo" class="panel-collapse collapse">
-                                    <div class="panel-body">
-                                        Why don't use Lore Ipsum? I think if some one says don't use lore ipsum it's very controversial point. I think the opposite actually. Everyone knows what is lore ipsum - it is
-                                        easy to understand if text is lore ipsum. You'll automatically skip - because you know - it's just non-informative stub. But what if there some text like this one? You start to read it!
-                                        But the goal of this text is different. The goal is the example. So a bit of Lore Ipsum is always very good practice. Keep it in mind!
-                                    </div>
-                                </div>
-                            </div>
-							<div class="panel">
-                                <div class="panel-heading"  style='border-left: 5px solid #56bc76;'>
-                                    <a class="accordion-toggle" data-toggle="collapse" href="#collapseTwoTwo">
-                                        Избранное
-                         <span class="badge badge-default" style="float:right;" >0</span>
- 						 <span class="badge badge-danger" style="float:right;">0</span>
-                        <span class="badge badge-warning" style="float:right;">0</span>
-                        <span class="badge badge-success" style="float:right;">2</span>
-                                    </a>
-                                </div>
-                                <div id="collapseTwoTwo" class="panel-collapse collapse">
-                                    <div class="panel-body">
-                                        Why don't use Lore Ipsum? I think if some one says don't use lore ipsum it's very controversial point. I think the opposite actually. Everyone knows what is lore ipsum - it is
-                                        easy to understand if text is lore ipsum. You'll automatically skip - because you know - it's just non-informative stub. But what if there some text like this one? You start to read it!
-                                        But the goal of this text is different. The goal is the example. So a bit of Lore Ipsum is always very good practice. Keep it in mind!
-                                    </div>
-                                </div>
-                            </div>
-							<div class="panel">
-<div class="panel-heading"  style='border-left: 5px solid #999;'>                                    <a class="accordion-toggle" data-toggle="collapse" href="#collapseTwoTwo">
-                                        API
-                       <span class="badge badge-default" style="float:right;" >12</span>
- 						 <span class="badge badge-danger" style="float:right;">0</span>
-                        <span class="badge badge-warning" style="float:right;">0</span>
-                        <span class="badge badge-success" style="float:right;">0</span>
-    <span class="badge badge-info" style="float:right;"><i class="fa fa-spinner fa-spin" style="float:right"></i></span>
-    
-                                    </a>
-                                </div>
-                                <div id="collapseTwoTwo" class="panel-collapse collapse">
-                                    <div class="panel-body">
-                                        Why don't use Lore Ipsum? I think if some one says don't use lore ipsum it's very controversial point. I think the opposite actually. Everyone knows what is lore ipsum - it is
-                                        easy to understand if text is lore ipsum. You'll automatically skip - because you know - it's just non-informative stub. But what if there some text like this one? You start to read it!
-                                        But the goal of this text is different. The goal is the example. So a bit of Lore Ipsum is always very good practice. Keep it in mind!
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="panel">
-<div class="panel-heading"  style='border-left: 5px solid #56bc76;'>                                    <a class="accordion-toggle" data-toggle="collapse" href="#collapseTwoTwo">
-                                        Заказ
-                       <span class="badge badge-default" style="float:right;" >0</span>
- 						 <span class="badge badge-danger" style="float:right;">0</span>
-                        <span class="badge badge-warning" style="float:right;">0</span>
-                        <span class="badge badge-success" style="float:right;">5</span>
-                                    </a>
-                                </div>
-                                <div id="collapseTwoTwo" class="panel-collapse collapse">
-                                    <div class="panel-body">
-                                        Why don't use Lore Ipsum? I think if some one says don't use lore ipsum it's very controversial point. I think the opposite actually. Everyone knows what is lore ipsum - it is
-                                        easy to understand if text is lore ipsum. You'll automatically skip - because you know - it's just non-informative stub. But what if there some text like this one? You start to read it!
-                                        But the goal of this text is different. The goal is the example. So a bit of Lore Ipsum is always very good practice. Keep it in mind!
-                                    </div>
-                                </div>
-                            </div>
-	                    </div>
-                    </div>
-                </section>
+   <head>
+      <title>Light Blue - Admin Template</title>
+      <link href="css/application.min.css" rel="stylesheet">
+      <link rel="shortcut icon" href="img/favicon.png">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <meta charset="utf-8">
+   </head>
+   <body class="background-dark">
+      <div class="logo">
+         <h4><a href="index.html">Light <strong>Blue</strong></a></h4>
+      </div>
+      <nav id="sidebar" class="sidebar nav-collapse collapse">
+         <ul id="side-nav" class="side-nav">
+            <li class="panel">
+               <a class="accordion-toggle collapsed" data-toggle="collapse"
+                  data-parent="#side-nav" href="#grid-collapse"><i class="fa fa-bars"></i> <span class="name">Тесты &nbsp; <span class="label label-info">new</span></span></a>
+               <ul id="grid-collapse" class="panel-collapse collapse">
+                  <li><a href="grid.html">Basic</a></li>
+                  <li><a href="grid_live.html">Live &nbsp; <span class="label label-important">hot</span></a></li>
+               </ul>
+            </li>
+            <li class="panel">
+               <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#side-nav" href="#stats-collapse"><i class="fa fa-bar-chart-o"></i> <span class="name">Отчеты</span></a>
+               <ul id="stats-collapse" class="panel-collapse collapse">
+                  <li><a href="stat_statistics.html">Stats</a></li>
+                  <li><a href="stat_charts.html">Charts</a></li>
+                  <li><a href="stat_realtime.html">Realtime</a></li>
+               </ul>
+            </li>
+            <li class="visible-xs">
+               <a href="login.html"><i class="fa fa-sign-out"></i> <span class="name">Sign Out</span></a>
+            </li>
+         </ul>
+      </nav>
+      <div class="wrap">
+         <header class="page-header">
+            <div class="navbar">
+               <ul class="nav navbar-nav navbar-right pull-right">
+                  <li class="visible-phone-landscape">
+                     <a href="#" id="search-toggle">
+                     <i class="fa fa-search"></i>
+                     </a>
+                  </li>
+                  <li class="divider"></li>
+                  <li class="hidden-xs">
+                     <a href="#" id="settings"
+                        title="Settings"
+                        data-toggle="popover"
+                        data-placement="bottom">
+                     <i class="fa fa-cog"></i>
+                     </a>
+                  </li>
+                  <li class="hidden-xs dropdown">
+                     <a href="#" title="Account" id="account"
+                        class="dropdown-toggle"
+                        data-toggle="dropdown">
+                     <i class="fa fa-user"></i>
+                     </a>
+                     <ul id="account-menu" class="dropdown-menu account" role="menu">
+                        <li role="presentation" class="account-picture">
+                           <img src="img/2.jpg" alt="">
+                           Philip Daineka
+                        </li>
+                        <li role="presentation">
+                           <a href="form_account.html" class="link">
+                           <i class="fa fa-user"></i>
+                           Profile
+                           </a>
+                        </li>
+                        <li role="presentation">
+                           <a href="component_calendar.html" class="link">
+                           <i class="fa fa-calendar"></i>
+                           Calendar
+                           </a>
+                        </li>
+                        <li role="presentation">
+                           <a href="#" class="link">
+                           <i class="fa fa-inbox"></i>
+                           Inbox
+                           </a>
+                        </li>
+                     </ul>
+                  </li>
+                  <li class="visible-xs">
+                     <a href="#"
+                        class="btn-navbar"
+                        data-toggle="collapse"
+                        data-target=".sidebar"
+                        title="">
+                     <i class="fa fa-bars"></i>
+                     </a>
+                  </li>
+                  <li class="hidden-xs"><a href="login.html"><i class="fa fa-sign-out"></i></a></li>
+               </ul>
             </div>
-        </div>
-    </div>
-    <div class="loader-wrap hiding hide">
-        <i class="fa fa-spinner fa-spin"></i>
-    </div>
-</div>
-
-<!-- jquery and friends -->
-<script src="lib/jquery/jquery-2.0.3.min.js"> </script>
-<script src="lib/jquery-pjax/jquery.pjax.js"></script>
-
-
-<!-- jquery plugins -->
-<script src="lib/jquery-maskedinput/jquery.maskedinput.js"></script>
-<script src="lib/parsley/parsley.js"> </script>
-<script src="lib/icheck.js/jquery.icheck.js"></script>
-<script src="lib/select2.js"></script>
-
-
-<!--backbone and friends -->
-<script src="lib/backbone/underscore-min.js"></script>
-
-<!-- bootstrap default plugins -->
-<script src="lib/bootstrap/transition.js"></script>
-<script src="lib/bootstrap/transition.js"></script>
-<script src="lib/bootstrap/collapse.js"></script>
-<script src="lib/bootstrap/alert.js"></script>
-<script src="lib/bootstrap/tooltip.js"></script>
-<script src="lib/bootstrap/popover.js"></script>
-<script src="lib/bootstrap/button.js"></script>
-<script src="lib/bootstrap/dropdown.js"></script>
-<script src="lib/bootstrap/modal.js"></script>
-<script src="lib/bootstrap/tab.js"> </script>
-
-<!-- bootstrap custom plugins -->
-<script src="lib/bootstrap-datepicker.js"></script>
-<script src="lib/bootstrap-select/bootstrap-select.js"></script>
-<script src="lib/wysihtml5/wysihtml5-0.3.0_rc2.js"></script>
-<script src="lib/bootstrap-wysihtml5/bootstrap-wysihtml5.js"></script>
-
-<!-- basic application js-->
-<script src="js/app.js"></script>
-<script src="js/settings.js"></script>
-
-<script type="text/template" id="settings-template">
-    <div class="setting clearfix">
-        <div>Background</div>
-        <div id="background-toggle" class="pull-left btn-group" data-toggle="buttons-radio">
-            <% dark = background == 'dark'; light = background == 'light';%>
-            <button type="button" data-value="dark" class="btn btn-sm btn-transparent <%= dark? 'active' : '' %>">Dark</button>
-            <button type="button" data-value="light" class="btn btn-sm btn-transparent <%= light? 'active' : '' %>">Light</button>
-        </div>
-    </div>
-    <div class="setting clearfix">
-        <div>Sidebar on the</div>
-        <div id="sidebar-toggle" class="pull-left btn-group" data-toggle="buttons-radio">
-            <% onRight = sidebar == 'right'%>
-            <button type="button" data-value="left" class="btn btn-sm btn-transparent <%= onRight? '' : 'active' %>">Left</button>
-            <button type="button" data-value="right" class="btn btn-sm btn-transparent <%= onRight? 'active' : '' %>">Right</button>
-        </div>
-    </div>
-    <div class="setting clearfix">
-        <div>Sidebar</div>
-        <div id="display-sidebar-toggle" class="pull-left btn-group" data-toggle="buttons-radio">
-            <% display = displaySidebar%>
-            <button type="button" data-value="true" class="btn btn-sm btn-transparent <%= display? 'active' : '' %>">Show</button>
-            <button type="button" data-value="false" class="btn btn-sm btn-transparent <%= display? '' : 'active' %>">Hide</button>
-        </div>
-    </div>
-    <div class="setting clearfix">
-        <div>White Version</div>
-        <div>
-            <a href="white/" class="btn btn-sm btn-transparent">&nbsp; Switch &nbsp;   <i class="fa fa-angle-right"></i></a>
-        </div>
-    </div>
-</script>
-
-<script type="text/template" id="sidebar-settings-template">
-        <% auto = sidebarState == 'auto'%>
-        <% if (auto) {%>
-            <button type="button"
-                    data-value="icons"
-                    class="btn-icons btn btn-transparent btn-sm">Icons</button>
-    <button type="button"
-            data-value="auto"
-            class="btn-auto btn btn-transparent btn-sm">Auto</button>
-        <%} else {%>
-            <button type="button"
-                    data-value="auto"
-                    class="btn btn-transparent btn-sm">Auto</button>
-        <% } %>
-</script>
-
-
-
-</body>
+         </header>
+         <div class="content container">
+            <div class="row">
+               <div class="col-md-12">
+                  <section class="widget">
+                     <header>
+                     </header>
+                     <div class="body">
+                        <div class="panel-group" id="accordion3">
+                           <div class="panel">
+                              <div class="panel-heading" style='border-left: 5px solid #56bc76;'>
+                                 <a class="accordion-toggle collapsed" data-toggle="collapse" href="#1">
+                                 Авторизация
+                                 <span class="badge badge-default" style="float:right;" >0</span>
+                                 <span class="badge badge-danger" style="float:right;">0</span>
+                                 <span class="badge badge-success" style="float:right;">3</span>
+                                 </a>
+                              </div>
+                              <div id="1" class="panel-collapse collapse">
+                                 <div class="panel-body">
+                                    <table class="table table-striped">
+                                       <thead>
+                                          <tr>
+                                             <th>#</th>
+                                             <th>Название</th>
+                                             <th>Последний запуск</th>
+                                             <th>Статус</th>
+                                             <th>Действия</th>
+                                          </tr>
+                                       </thead>
+                                       <tbody>
+                                          <tr>
+                                             <td>1</td>
+                                             <td>Пользователь существует</td>
+                                             <td>2014-10-11 22:15:08</td>
+                                             <td><span class="badge badge-success">Passed</span></td>
+                                             <td>
+                                                <div class="fontawesome-icon-list">
+                                                   <div style="float: left"><i class="fa fa-play"></i></div>
+                                                   <div style="float: left"><i class="fa fa-search"></i></div>
+                                                   <div><i class="fa fa-cogs"></i></div>
+                                                </div>
+                                             </td>
+                                          </tr>
+                                          <tr>
+                                             <td>2</td>
+                                             <td>Пользователь не существует</td>
+                                             <td>2014-10-11 07:01:55</td>
+                                             <td><span class="badge badge-success">Passed</span></td>
+                                             <td>
+                                                <div class="fontawesome-icon-list">
+                                                   <div style="float: left"><i class="fa fa-play"></i></div>
+                                                   <div style="float: left"><i class="fa fa-search"></i></div>
+                                                   <div><i class="fa fa-cogs"></i></div>
+                                                </div>
+                                             </td>
+                                          </tr>
+                                          <tr>
+                                             <td>3</td>
+                                             <td>Некорректный пароль</td>
+                                             <td>2014-10-11 18:16:20</td>
+                                             <td><span class="badge badge-success">Passed</span></td>
+                                             <td>
+                                                <div class="fontawesome-icon-list">
+                                                   <div style="float: left"><i class="fa fa-play"></i></div>
+                                                   <div style="float: left"><i class="fa fa-search"></i></div>
+                                                   <div><i class="fa fa-cogs"></i></div>
+                                                </div>
+                                             </td>
+                                          </tr>
+                                       </tbody>
+                                    </table>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="panel">
+                              <div class="panel-heading"  style='border-left: 5px solid #e5603b;'>
+                                 <a class="accordion-toggle" data-toggle="collapse" href="#2">
+                                 Фильтры
+                                 <span class="badge badge-default" style="float:right;" >0</span>
+                                 <span class="badge badge-danger" style="float:right;">2</span>
+                                 <span class="badge badge-success" style="float:right;">5</span>
+                                 </a>
+                              </div>
+                              <div id="2" class="panel-collapse collapse">
+                                 <div class="panel-body">
+                                    <table class="table table-striped">
+                                       <thead>
+                                          <tr>
+                                             <th>#</th>
+                                             <th>Название</th>
+                                             <th>Последний запуск</th>
+                                             <th>Статус</th>
+                                             <th>Действия</th>
+                                          </tr>
+                                       </thead>
+                                       <tbody>
+                                          <tr>
+                                             <td>1</td>
+                                             <td>По производителю</td>
+                                             <td>2014-09-04 02:10:17</td>
+                                             <td><span class="badge badge-success">Passed</span></td>
+                                             <td>
+                                                <div class="fontawesome-icon-list">
+                                                   <div style="float: left"><i class="fa fa-play"></i></div>
+                                                   <div style="float: left"><i class="fa fa-search"></i></div>
+                                                   <div><i class="fa fa-cogs"></i></div>
+                                                </div>
+                                             </td>
+                                          </tr>
+                                          <tr>
+                                             <td>2</td>
+                                             <td>По названию</td>
+                                             <td>2014-10-10 19:35:19</td>
+                                             <td><span class="badge badge-success">Passed</span></td>
+                                             <td>
+                                                <div class="fontawesome-icon-list">
+                                                   <div style="float: left"><i class="fa fa-play"></i></div>
+                                                   <div style="float: left"><i class="fa fa-search"></i></div>
+                                                   <div><i class="fa fa-cogs"></i></div>
+                                                </div>
+                                             </td>
+                                          </tr>
+                                          <tr>
+                                             <td>3</td>
+                                             <td>По размеру</td>
+                                             <td>2014-10-21 08:12:27</td>
+                                             <td><span class="badge badge-danger">Failed</span></td>
+                                             <td>
+                                                <div class="fontawesome-icon-list">
+                                                   <div style="float: left"><i class="fa fa-play"></i></div>
+                                                   <div style="float: left"><i class="fa fa-search"></i></div>
+                                                   <div><i class="fa fa-cogs"></i></div>
+                                                </div>
+                                             </td>
+                                          </tr>
+                                          <tr>
+                                             <td>4</td>
+                                             <td>По цене</td>
+                                             <td>2014-10-11 11:55:11</td>
+                                             <td><span class="badge badge-success">Passed</span></td>
+                                             <td>
+                                                <div class="fontawesome-icon-list">
+                                                   <div style="float: left"><i class="fa fa-play"></i></div>
+                                                   <div style="float: left"><i class="fa fa-search"></i></div>
+                                                   <div><i class="fa fa-cogs"></i></div>
+                                                </div>
+                                             </td>
+                                          </tr>
+                                          <tr>
+                                             <td>5</td>
+                                             <td>По наличию</td>
+                                             <td>2014-09-04 08:12:55</td>
+                                             <td><span class="badge badge-success">Passed</span></td>
+                                             <td>
+                                                <div class="fontawesome-icon-list">
+                                                   <div style="float: left"><i class="fa fa-play"></i></div>
+                                                   <div style="float: left"><i class="fa fa-search"></i></div>
+                                                   <div><i class="fa fa-cogs"></i></div>
+                                                </div>
+                                             </td>
+                                          </tr>
+                                          <tr>
+                                             <td>6</td>
+                                             <td>По скидкам</td>
+                                             <td>2014-10-11 14:10:31</td>
+                                             <td><span class="badge badge-danger">Failed</span></td>
+                                             <td>
+                                                <div class="fontawesome-icon-list">
+                                                   <div style="float: left"><i class="fa fa-play"></i></div>
+                                                   <div style="float: left"><i class="fa fa-search"></i></div>
+                                                   <div><i class="fa fa-cogs"></i></div>
+                                                </div>
+                                             </td>
+                                          </tr>
+                                          <tr>
+                                             <td>7</td>
+                                             <td>По категории</td>
+                                             <td>2014-12-28 10:35:20</td>
+                                             <td><span class="badge badge-success">Passed</span></td>
+                                             <td>
+                                                <div class="fontawesome-icon-list">
+                                                   <div style="float: left"><i class="fa fa-play"></i></div>
+                                                   <div style="float: left"><i class="fa fa-search"></i></div>
+                                                   <div><i class="fa fa-cogs"></i></div>
+                                                </div>
+                                             </td>
+                                          </tr>
+                                       </tbody>
+                                    </table>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="panel">
+                              <div class="panel-heading"  style='border-left: 5px solid #999;'>
+                                 <a class="accordion-toggle" data-toggle="collapse" href="#3">
+                                 Избранное
+                                 <span class="badge badge-default" style="float:right;" >2</span>
+                                 <span class="badge badge-danger" style="float:right;">0</span>
+                                 <span class="badge badge-success" style="float:right;">0</span>
+                                 </a>
+                              </div>
+                              <div id="3" class="panel-collapse collapse">
+                                 <div class="panel-body">
+                                    <table class="table table-striped">
+                                       <thead>
+                                          <tr>
+                                             <th>#</th>
+                                             <th>Название</th>
+                                             <th>Последний запуск</th>
+                                             <th>Статус</th>
+                                             <th>Действия</th>
+                                          </tr>
+                                       </thead>
+                                       <tbody>
+                                          <tr>
+                                             <td>1</td>
+                                             <td>Добавить в избранное</td>
+                                             <td>Никогда</td>
+                                             <td><span class="badge badge-default">Not run</span></td>
+                                             <td>
+                                                <div class="fontawesome-icon-list">
+                                                   <div style="float: left"><i class="fa fa-play"></i></div>
+                                                   <div style="float: left"><i class="fa fa-search"></i></div>
+                                                   <div><i class="fa fa-cogs"></i></div>
+                                                </div>
+                                             </td>
+                                          </tr>
+                                          <tr>
+                                             <td>2</td>
+                                             <td>Удалить из избранного</td>
+                                             <td>Никогда</td>
+                                             <td><span class="badge badge-default">Not run</span></td>
+                                             <td>
+                                                <div class="fontawesome-icon-list">
+                                                   <div style="float: left"><i class="fa fa-play"></i></div>
+                                                   <div style="float: left"><i class="fa fa-search"></i></div>
+                                                   <div><i class="fa fa-cogs"></i></div>
+                                                </div>
+                                             </td>
+                                          </tr>
+                                       </tbody>
+                                    </table>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="panel">
+                              <div class="panel-heading"  style='border-left: 5px solid #4ab0ce;'>                                    <a class="accordion-toggle" data-toggle="collapse" href="#4">
+                                 API
+                                 <span class="badge badge-default" style="float:right;" >12</span>
+                                 <span class="badge badge-danger" style="float:right;">0</span>
+                                 <span class="badge badge-success" style="float:right;">0</span>
+                                 <span class="badge badge-info" style="float:right;"><i class="fa fa-spinner fa-spin" style="float:right"></i></span>
+                                 </a>
+                              </div>
+                              <div id="4" class="panel-collapse collapse">
+                                 <div class="panel-body">
+                                    <table class="table table-striped">
+                                       <thead>
+                                          <tr>
+                                             <th>#</th>
+                                             <th>Название</th>
+                                             <th>Последний запуск</th>
+                                             <th>Статус</th>
+                                             <th>Действия</th>
+                                          </tr>
+                                       </thead>
+                                       <tbody>
+                                          <tr>
+                                             <td>1</td>
+                                             <td>/json/create_order/</td>
+                                             <td>2014-12-28 10:35:20</td>
+                                             <td><span class="badge badge-info">In progress</span></td>
+                                             <td>
+                                                <div class="fontawesome-icon-list">
+                                                   <div style="float: left"><i class="fa fa-stop"></i></div>
+                                                   <div style="float: left"><i class="fa fa-search"></i></div>
+                                                   <div><i class="fa fa-cogs"></i></div>
+                                                </div>
+                                             </td>
+                                          </tr>
+                                          <tr>
+                                             <td>2</td>
+                                             <td>/json/submit_order/</td>
+                                             <td>2014-12-28 10:35:20</td>
+                                             <td><span class="badge badge-info">In progress</span></td>
+                                             <td>
+                                                <div class="fontawesome-icon-list">
+                                                   <div style="float: left"><i class="fa fa-stop"></i></div>
+                                                   <div style="float: left"><i class="fa fa-search"></i></div>
+                                                   <div><i class="fa fa-cogs"></i></div>
+                                                </div>
+                                             </td>
+                                          </tr>
+                                          <tr>
+                                             <td>3</td>
+                                             <td>/json/get_all_customer_orders/</td>
+                                             <td>2014-12-28 10:35:20</td>
+                                             <td><span class="badge badge-info">In progress</span></td>
+                                             <td>
+                                                <div class="fontawesome-icon-list">
+                                                   <div style="float: left"><i class="fa fa-stop"></i></div>
+                                                   <div style="float: left"><i class="fa fa-search"></i></div>
+                                                   <div><i class="fa fa-cogs"></i></div>
+                                                </div>
+                                             </td>
+                                          </tr>
+                                          <tr>
+                                             <td>4</td>
+                                             <td>/json/create_customer/</td>
+                                             <td>2014-12-28 10:35:20</td>
+                                             <td><span class="badge badge-info">In progress</span></td>
+                                             <td>
+                                                <div class="fontawesome-icon-list">
+                                                   <div style="float: left"><i class="fa fa-stop"></i></div>
+                                                   <div style="float: left"><i class="fa fa-search"></i></div>
+                                                   <div><i class="fa fa-cogs"></i></div>
+                                                </div>
+                                             </td>
+                                          </tr>
+                                          <tr>
+                                             <td>5</td>
+                                             <td>/json/add_to_cart/</td>
+                                             <td>2014-12-28 10:35:20</td>
+                                             <td><span class="badge badge-info">In progress</span></td>
+                                             <td>
+                                                <div class="fontawesome-icon-list">
+                                                   <div style="float: left"><i class="fa fa-stop"></i></div>
+                                                   <div style="float: left"><i class="fa fa-search"></i></div>
+                                                   <div><i class="fa fa-cogs"></i></div>
+                                                </div>
+                                             </td>
+                                          </tr>
+                                          <tr>
+                                             <td>6</td>
+                                             <td>/json/delete_from_cart/</td>
+                                             <td>2014-12-28 10:35:20</td>
+                                             <td><span class="badge badge-info">In progress</span></td>
+                                             <td>
+                                                <div class="fontawesome-icon-list">
+                                                   <div style="float: left"><i class="fa fa-stop"></i></div>
+                                                   <div style="float: left"><i class="fa fa-search"></i></div>
+                                                   <div><i class="fa fa-cogs"></i></div>
+                                                </div>
+                                             </td>
+                                          </tr>
+                                          <tr>
+                                             <td>7</td>
+                                             <td>/json/add_to_wishlist/</td>
+                                             <td>2014-12-28 10:35:20</td>
+                                             <td><span class="badge badge-info">In progress</span></td>
+                                             <td>
+                                                <div class="fontawesome-icon-list">
+                                                   <div style="float: left"><i class="fa fa-stop"></i></div>
+                                                   <div style="float: left"><i class="fa fa-search"></i></div>
+                                                   <div><i class="fa fa-cogs"></i></div>
+                                                </div>
+                                             </td>
+                                          </tr>
+                                           <tr>
+                                             <td>8</td>
+                                             <td>/json/remove_from_wishlist/</td>
+                                             <td>2014-12-28 10:35:20</td>
+                                             <td><span class="badge badge-info">In progress</span></td>
+                                             <td>
+                                                <div class="fontawesome-icon-list">
+                                                   <div style="float: left"><i class="fa fa-stop"></i></div>
+                                                   <div style="float: left"><i class="fa fa-search"></i></div>
+                                                   <div><i class="fa fa-cogs"></i></div>
+                                                </div>
+                                             </td>
+                                          </tr>
+                                           <tr>
+                                             <td>9</td>
+                                             <td>/json/remove_from_cart/</td>
+                                             <td>2014-12-28 10:35:20</td>
+                                             <td><span class="badge badge-info">In progress</span></td>
+                                             <td>
+                                                <div class="fontawesome-icon-list">
+                                                   <div style="float: left"><i class="fa fa-stop"></i></div>
+                                                   <div style="float: left"><i class="fa fa-search"></i></div>
+                                                   <div><i class="fa fa-cogs"></i></div>
+                                                </div>
+                                             </td>
+                                          </tr>
+                                           <tr>
+                                             <td>10</td>
+                                             <td>/json/change_customer_contacts/</td>
+                                             <td>2014-12-28 10:35:20</td>
+                                             <td><span class="badge badge-info">In progress</span></td>
+                                             <td>
+                                                <div class="fontawesome-icon-list">
+                                                   <div style="float: left"><i class="fa fa-stop"></i></div>
+                                                   <div style="float: left"><i class="fa fa-search"></i></div>
+                                                   <div><i class="fa fa-cogs"></i></div>
+                                                </div>
+                                             </td>
+                                          </tr>
+                                           <tr>
+                                             <td>11</td>
+                                             <td>/json/add_customer_to_blacklist/</td>
+                                             <td>2014-12-28 10:35:20</td>
+                                             <td><span class="badge badge-info">In progress</span></td>
+                                             <td>
+                                                <div class="fontawesome-icon-list">
+                                                   <div style="float: left"><i class="fa fa-stop"></i></div>
+                                                   <div style="float: left"><i class="fa fa-search"></i></div>
+                                                   <div><i class="fa fa-cogs"></i></div>
+                                                </div>
+                                             </td>
+                                          </tr>
+                                       </tbody>
+                                    </table>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="panel">
+                              <div class="panel-heading"  style='border-left: 5px solid #56bc76;'>                                    <a class="accordion-toggle" data-toggle="collapse" href="#collapseTwoTwo">
+                                 Заказ
+                                 <span class="badge badge-default" style="float:right;" >0</span>
+                                 <span class="badge badge-danger" style="float:right;">0</span>
+                                 <span class="badge badge-success" style="float:right;">2</span>
+                                 </a>
+                              </div>
+                              <div id="collapseTwoTwo" class="panel-collapse collapse">
+                                 <div class="panel-body">
+                                                                        <table class="table table-striped">
+                                       <thead>
+                                          <tr>
+                                             <th>#</th>
+                                             <th>Название</th>
+                                             <th>Последний запуск</th>
+                                             <th>Статус</th>
+                                             <th>Действия</th>
+                                          </tr>
+                                       </thead>
+                                       <tbody>
+                                          <tr>
+                                             <td>1</td>
+                                             <td>Заказ для авторизованного пользователя</td>
+                                             <td>2014-10-11 22:15:08</td>
+                                             <td><span class="badge badge-success">Passed</span></td>
+                                             <td>
+                                                <div class="fontawesome-icon-list">
+                                                   <div style="float: left"><i class="fa fa-play"></i></div>
+                                                   <div style="float: left"><i class="fa fa-search"></i></div>
+                                                   <div><i class="fa fa-cogs"></i></div>
+                                                </div>
+                                             </td>
+                                          </tr>
+                                          <tr>
+                                             <td>2</td>
+                                             <td>Заказ для неавторизованного пользователя</td>
+                                             <td>2014-10-11 07:01:55</td>
+                                             <td><span class="badge badge-success">Passed</span></td>
+                                             <td>
+                                                <div class="fontawesome-icon-list">
+                                                   <div style="float: left"><i class="fa fa-play"></i></div>
+                                                   <div style="float: left"><i class="fa fa-search"></i></div>
+                                                   <div><i class="fa fa-cogs"></i></div>
+                                                </div>
+                                             </td>
+                                          </tr>
+                                          
+                                       </tbody>
+                                    </table>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </section>
+               </div>
+            </div>
+         </div>
+         <div class="loader-wrap hiding hide">
+            <i class="fa fa-spinner fa-spin"></i>
+         </div>
+      </div>
+      <!-- jquery and friends -->
+      <script src="lib/jquery/jquery-2.0.3.min.js"> </script>
+      <script src="lib/jquery-pjax/jquery.pjax.js"></script>
+      <!-- jquery plugins -->
+      <script src="lib/jquery-maskedinput/jquery.maskedinput.js"></script>
+      <script src="lib/parsley/parsley.js"> </script>
+      <script src="lib/icheck.js/jquery.icheck.js"></script>
+      <script src="lib/select2.js"></script>
+      <!--backbone and friends -->
+      <script src="lib/backbone/underscore-min.js"></script>
+      <!-- bootstrap default plugins -->
+      <script src="lib/bootstrap/transition.js"></script>
+      <script src="lib/bootstrap/transition.js"></script>
+      <script src="lib/bootstrap/collapse.js"></script>
+      <script src="lib/bootstrap/alert.js"></script>
+      <script src="lib/bootstrap/tooltip.js"></script>
+      <script src="lib/bootstrap/popover.js"></script>
+      <script src="lib/bootstrap/button.js"></script>
+      <script src="lib/bootstrap/dropdown.js"></script>
+      <script src="lib/bootstrap/modal.js"></script>
+      <script src="lib/bootstrap/tab.js"> </script>
+      <!-- bootstrap custom plugins -->
+      <script src="lib/bootstrap-datepicker.js"></script>
+      <script src="lib/bootstrap-select/bootstrap-select.js"></script>
+      <script src="lib/wysihtml5/wysihtml5-0.3.0_rc2.js"></script>
+      <script src="lib/bootstrap-wysihtml5/bootstrap-wysihtml5.js"></script>
+      <!-- basic application js-->
+      <script src="js/app.js"></script>
+      <script src="js/settings.js"></script>
+      <script type="text/template" id="settings-template">
+         <div class="setting clearfix">
+             <div>Background</div>
+             <div id="background-toggle" class="pull-left btn-group" data-toggle="buttons-radio">
+                 <% dark = background == 'dark'; light = background == 'light';%>
+                 <button type="button" data-value="dark" class="btn btn-sm btn-transparent <%= dark? 'active' : '' %>">Dark</button>
+                 <button type="button" data-value="light" class="btn btn-sm btn-transparent <%= light? 'active' : '' %>">Light</button>
+             </div>
+         </div>
+         <div class="setting clearfix">
+             <div>Sidebar on the</div>
+             <div id="sidebar-toggle" class="pull-left btn-group" data-toggle="buttons-radio">
+                 <% onRight = sidebar == 'right'%>
+                 <button type="button" data-value="left" class="btn btn-sm btn-transparent <%= onRight? '' : 'active' %>">Left</button>
+                 <button type="button" data-value="right" class="btn btn-sm btn-transparent <%= onRight? 'active' : '' %>">Right</button>
+             </div>
+         </div>
+         <div class="setting clearfix">
+             <div>Sidebar</div>
+             <div id="display-sidebar-toggle" class="pull-left btn-group" data-toggle="buttons-radio">
+                 <% display = displaySidebar%>
+                 <button type="button" data-value="true" class="btn btn-sm btn-transparent <%= display? 'active' : '' %>">Show</button>
+                 <button type="button" data-value="false" class="btn btn-sm btn-transparent <%= display? '' : 'active' %>">Hide</button>
+             </div>
+         </div>
+         <div class="setting clearfix">
+             <div>White Version</div>
+             <div>
+                 <a href="white/" class="btn btn-sm btn-transparent">&nbsp; Switch &nbsp;   <i class="fa fa-angle-right"></i></a>
+             </div>
+         </div>
+      </script>
+      <script type="text/template" id="sidebar-settings-template">
+         <% auto = sidebarState == 'auto'%>
+         <% if (auto) {%>
+             <button type="button"
+                     data-value="icons"
+                     class="btn-icons btn btn-transparent btn-sm">Icons</button>
+         <button type="button"
+             data-value="auto"
+             class="btn-auto btn btn-transparent btn-sm">Auto</button>
+         <%} else {%>
+             <button type="button"
+                     data-value="auto"
+                     class="btn btn-transparent btn-sm">Auto</button>
+         <% } %>
+      </script>
+   </body>
